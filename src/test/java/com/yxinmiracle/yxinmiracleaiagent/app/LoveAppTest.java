@@ -56,10 +56,8 @@ class LoveAppTest {
 
         // 第一轮
         String message = "我已经结婚了，婚后关系不太亲密怎么办？";
-        String answer = loveApp.doChatWithRag(message, chatId);
+        String answer = loveApp.doChatWithVectorRag(message, chatId);
         Assertions.assertNotNull(answer);
-
-
     }
 
 }
